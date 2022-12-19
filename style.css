@@ -1,0 +1,77 @@
+.tt{
+    width: 150px;
+    height: 150px;
+    background-color: gray;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.box{
+    height: 500px;
+    width: 100%;
+    background-color: black;
+}
+.bmi{
+    background-color: yellow;
+}
+#join{
+    background-image: url(r.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+
+
+.trainers{
+    background-color: yellow;
+}
+#bgimage{
+    background-image: url('best.jpg'); 
+    height: 100vh; 
+    background-repeat: no-repeat;
+     background-size: cover;
+}
+   .energy{
+    color: yellow;
+   } 
+   .fw-bolder{
+    font-size: 100px;
+   }
+   #foot{
+    background-image: url('chest.jpg');
+    height: 30vh;
+    background-repeat: no-repeat;
+     background-size: cover;
+   }
+   .news{
+    background-color: yellow;
+    color: black;
+    font-weight: bolder;
+   }
+   #email{
+    position: relative;
+    left: 95px;
+    border-radius: 0%;
+   }
+   #subscribebtn{
+    position: relative;
+    right: 0;
+    height:47px;
+    border-radius: 0%;
+    background-color: yellow;
+    color: black;
+    font-weight: bolder;
+   }
+   #contact{
+    background-image: url(weight.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 280px;
+    width: 100%;
+   }
+   @media only screen and (max-width: 775px){
+    #contact{
+        height: 700px;
+    }
+   }
